@@ -7,6 +7,8 @@ include_once 'menu.php';
         <div class="container-fluid px-4">
             <h1 class="mt-4">Data</h1>
             <ol class="breadcrumb mb-4">
+                <li class="breadcrumb-item"><a href="dashboard.php">Dashboard</a></li>
+                <li class="breadcrumb-item"><a href="#">Master Data</a></li>
                 <li class="breadcrumb-item active">Data</li>
             </ol>
             <div class="card mb-4">
