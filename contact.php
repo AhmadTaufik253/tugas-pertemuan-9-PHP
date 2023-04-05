@@ -14,19 +14,22 @@ include_once 'menu.php';
                 <div class="col-xl-6">
                     <div class="card mb-4">
                         <div class="card-header">
-                            <i class="fas fa-chart-area me-1"></i>
-                            Area Chart Example
+                            <i class="fas fa-table me-1"></i>
+                            Contact
                         </div>
-                        <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="card mb-4">
-                        <div class="card-header">
-                            <i class="fas fa-chart-bar me-1"></i>
-                            Bar Chart Example
+                        <div class="card-body">
+                            <p>
+                                <i class="fa-solid fa-phone fa-xl"></i> &nbsp +62 812 9034 3457
+                            </p>
+                            <p>
+                                <i class="fa-brands fa-instagram fa-2xl"></i> &nbspahmd.taufiik
+                            </p>
+                            <p>
+                                <i class="fa-brands fa-facebook fa-2xl"></i> Ahmad taufik Aurahman
+                            </p>    
+                            
+                            
                         </div>
-                        <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
                     </div>
                 </div>
             </div>
