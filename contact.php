@@ -10,11 +10,24 @@ include_once 'menu.php';
                 <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
                 <li class="breadcrumb-item active">Contact</li>
             </ol>
-            <div class="card mb-4">
-                <div class="card-body">
-                    <p class="mb-0">
-                        
-                    </p>
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-chart-area me-1"></i>
+                            Area Chart Example
+                        </div>
+                        <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-chart-bar me-1"></i>
+                            Bar Chart Example
+                        </div>
+                        <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+                    </div>
                 </div>
             </div>
         </div>
